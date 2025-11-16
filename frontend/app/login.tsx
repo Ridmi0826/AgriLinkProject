@@ -34,7 +34,7 @@ export default function Login() {
     if (Platform.OS === 'web' && redirect) {
       setTimeout(() => {
         setShowPopup(false);
-        router.replace('/'); // redirect after delay on web
+        router.replace('/'); 
       }, 1500);
     }
   };
